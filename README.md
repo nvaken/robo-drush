@@ -2,7 +2,7 @@
 
 Extension to execute Drush commands in [Robo](https://github.com/Codegyre/Robo).
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/1d842f01-b2c4-415a-b372-12af7a5516e0/mini.png)](https://insight.sensiolabs.com/projects/1d842f01-b2c4-415a-b372-12af7a5516e0) [![Build Status](https://travis-ci.org/boedah/robo-drush.svg?branch=master)](https://travis-ci.org/boedah/robo-drush)  [![Latest Stable Version](https://poser.pugx.org/boedah/robo-drush/v/stable)](https://packagist.org/packages/boedah/robo-drush) [![Total Downloads](https://poser.pugx.org/boedah/robo-drush/downloads)](https://packagist.org/packages/boedah/robo-drush) [![Latest Unstable Version](https://poser.pugx.org/boedah/robo-drush/v/unstable)](https://packagist.org/packages/boedah/robo-drush) [![License](https://poser.pugx.org/boedah/robo-drush/license)](https://packagist.org/packages/boedah/robo-drush) 
+This package was forked from [boedah/robo-drush](https://github.com/digipolisgent/robo-drush).
 
 Runs Drush commands in stack. You can define global options for all commands (like Drupal root and uri).
 
@@ -38,7 +38,7 @@ Use the trait (according to your used version) in your RoboFile:
 ```php
 class RoboFile extends \Robo\Tasks
 {
-    // if you use robo-drush ~2.1 for Robo >=0.5.2, or robo-drush >3 for Robo >=1.0.0-RC1
+    // if you use robo-drush ~2.1 for Robo >=0.5.2, or robo-drush >3 for Robo >=1.0.0-RC1, or robo-drush form Robo >=2.0.0
     use \Boedah\Robo\Task\Drush\loadTasks;
 
     // if you use ~1.0 for Robo ~0.4
