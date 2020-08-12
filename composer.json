@@ -1,5 +1,5 @@
 {
-    "name": "digipolisgent/robo-drush",
+    "name": "nvaken/robo-drush",
     "description": "Drush CommandStack for Robo Task Runner",
     "type": "robo-tasks",
     "license": "MIT",
